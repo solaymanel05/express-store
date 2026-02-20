@@ -47,12 +47,12 @@ const Order = mongoose.model("Order", orderSchema);
 
 // PRODUCTS (temporary static)
 const products = [
-  { id: 1, name: "Coffe Machine Italy", price: 1900, image: "http://localhost:5000/images/img1.jpg" },
-  { id: 2, name: "Vasels simple modern", price: 200, image: "http://localhost:5000/images/img2.jpg" },
-  { id: 3, name: "Coffe Machine france 2020", price: 1500, image: "http://localhost:5000/images/img3.jpg" },
-  { id: 4, name: "Jacket Man New version", price: 600, image: "http://localhost:5000/images/img4.jpg" },
-  { id: 5, name: "Vasel France simple", price: 300, image: "http://localhost:5000/images/img5.jpg" },
-  { id: 6, name: "vasel italy flower", price: 250, image: "http://localhost:5000/images/img6.jpg" },
+  { id: 1, name: "Coffe Machine Italy", price: 1900, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img1.jpg" },
+  { id: 2, name: "Vasels simple modern", price: 200, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img2.jpg" },
+  { id: 3, name: "Coffe Machine france 2020", price: 1500, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img3.jpg" },
+  { id: 4, name: "Jacket Man New version", price: 600, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img4.jpg" },
+  { id: 5, name: "Vasel France simple", price: 300, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img5.jpg" },
+  { id: 6, name: "vasel italy flower", price: 250, image:  "https://express-store-production.up.railway.app/images/img1.jpg/images/img6.jpg" },
 ];
 
 app.get("/api/products", (req, res) => {
